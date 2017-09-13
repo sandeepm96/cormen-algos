@@ -99,3 +99,6 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+workstation1/
+workstation2/
