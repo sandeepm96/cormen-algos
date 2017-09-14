@@ -1,4 +1,3 @@
-#Main program
 class HeapSort:
     def __init__(self,a):
         self.a = a
@@ -26,5 +25,3 @@ class HeapSort:
         if not i == largest:
             self.a[i],self.a[largest] = self.a[largest],self.a[i]
             self.heapify(largest)
-s = HeapSort([4,5,6,7,2,4,1,8,9,5])
-print(s.result())
