@@ -1,7 +1,7 @@
 class Heapsort:
     def __init__ (self, input_array):
         self.array = input_array
-
+        
     def heap_sort(self):
         self.build_heap()
         for i in range(self.heapsize -1, -1, -1):
