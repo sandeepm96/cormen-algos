@@ -100,5 +100,5 @@ ENV/
 # mypy
 .mypy_cache/
 
-workstation1/
-workstation2/
+workstation1/*
+workstation2/*
