@@ -1,9 +1,11 @@
 class QuickSort:
     def __init__(self,a):
         self.a = a
+         
     def result(self):
         self.partialSort(0,len(self.a)-1)
         return self.a
+
     def partialSort(self,left,right):
         if left == right or right < left:
             return
