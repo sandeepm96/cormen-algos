@@ -1,4 +1,3 @@
-#Main program
 class CountingSort:
     def __init__(self,array):
         self.array = array
@@ -19,7 +18,3 @@ class CountingSort:
     def result(self):
         self.sort()
         return self.sorted_array
-
-test = list(map(int,input().split(' ')))
-t = CountingSort(test)
-print(t.result())
