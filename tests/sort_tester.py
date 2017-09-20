@@ -1,7 +1,7 @@
 import os,sys,inspect
 sys.path.append('../')
 # Import your package here
-from Alice.Sorting.counting_sort import CountingSort as s
+from Rishav.Sorting.bucketsort import BucketSort as s
 
 def checkArrayEqual(a,b):
     if not len(a) == len(b):
