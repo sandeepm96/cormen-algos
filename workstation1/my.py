@@ -1,5 +1,3 @@
-# Enter your code here. Read input from STDIN. Print output to STDOUT
-
 #Main program
 class MaxSubArray:
     def __init__(self,a):
