@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58ba0636-fc6a-4a1f-8599-a410d70fac80" name="Default" comment="" />
+    <list default="true" id="58ba0636-fc6a-4a1f-8599-a410d70fac80" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Sandy/matrix_chain_multiply.py" afterPath="$PROJECT_DIR$/Sandy/matrix_chain_multiply.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +31,7 @@
         <option value="$PROJECT_DIR$/Sandy/test.py" />
         <option value="$PROJECT_DIR$/Sandy/bst.py" />
         <option value="$PROJECT_DIR$/Sandy/matrix_chain_multiply.py" />
+        <option value="$PROJECT_DIR$/Sandy/lcs.py" />
       </list>
     </option>
   </component>
@@ -325,8 +328,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sandy/matrix_chain_multiply.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="369">
+          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sandy/lcs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="36" column="10" lean-forward="true" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
           <folding />
         </state>
       </provider>

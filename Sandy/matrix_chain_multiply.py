@@ -18,12 +18,12 @@ class MatChainMult:
                         s[i][j-1] = k
         self.m,self.s = m,s
 
-    def _optimal_parens(self,i,j,str):
+    def _optimal_parens(self,i,j,order):
         if i==j:
-            str += 'A{}'.format(i+1)
+            order += 'A{}'.format(i+1)
         else:
-            str += '({0}{1})'.format(self._optimal_parens(i,self.s[i][j-1],str), self._optimal_parens(self.s[i][j-1]+1,j,str))
-        return str
+            order += '({0}{1})'.format(self._optimal_parens(i,self.s[i][j-1],order), self._optimal_parens(self.s[i][j-1]+1,j,order))
+        return order
 
     def optimal_cost(self):
         return self.m[0][len(self.m)-1]
