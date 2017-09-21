@@ -1,7 +1,7 @@
 import os,sys,inspect
 sys.path.append('../')
 # Import your package here
-from Alice.Sorting.counting_sort import CountingSort as s
+from Alice.Sorting.radix_sort import RadixSort as s
 
 def checkArrayEqual(a,b):
     if not len(a) == len(b):
