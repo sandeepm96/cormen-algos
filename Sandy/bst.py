@@ -76,6 +76,8 @@ class BSTree:
                 else:
                     temp.parent.right = None
                 temp.parent = y
+                temp.left = x.left
+                temp.right = x.right
             if y is not None:
                 if y.left == x:
                     y.left = temp
