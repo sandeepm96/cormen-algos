@@ -10,7 +10,7 @@ class Graph():
     def isCycleUtil(self,v,visited,parent):
         visited[v] = True
         for i in self.graph[v]:
-            if visited[v] == False:
+            if visited[i] == False:
                 if (self.isCycleUtil(i,visited,v)):
                     return True
             elif parent != i:
