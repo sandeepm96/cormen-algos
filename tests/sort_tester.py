@@ -1,11 +1,8 @@
 import os,sys,inspect
 sys.path.append('../')
 # Import your package here
-<<<<<<< HEAD
-from Alice.Sorting.radix_sort import RadixSort as s
-=======
-from Rishav.Sorting.bucketsort import BucketSort as s
->>>>>>> cb1d97705062e9ff4b77975a58a3d90aca34e299
+from Alice.Sorting.bucket_sort import BucketSort as s
+# from Rishav.Sorting.bucketsort import BucketSort as s
 
 def checkArrayEqual(a,b):
     if not len(a) == len(b):
